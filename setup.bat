@@ -11,6 +11,7 @@ if not exist "%HOMEDRIVE%%HOMEPATH%\gradint" mkdir "%HOMEDRIVE%%HOMEPATH%\gradin
 rem (allow install before gradint is installed)
 
 if exist "%HOMEDRIVE%%HOMEPATH%\gradint\partials" goto copy
+rem see if we have the XP general directory-move command (probably won't work on 95 or Vista)
 move partials "%HOMEDRIVE%%HOMEPATH%\gradint\partials"
 if errorlevel 1 goto copy
 goto alreadyInRightDir
