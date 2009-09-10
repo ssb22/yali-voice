@@ -23,7 +23,7 @@ rem restart gradint
 tskill gradint-wrapper 2>nul
 taskkill /f /im gradint-wrapper.exe 2>nul >nul
 pushd "%HOMEDRIVE%%HOMEPATH%\gradint"
-start gradint-wrapper.exe once_per_day=2
+if exist gradint-wrapper.exe start gradint-wrapper.exe once_per_day=2
 popd
 :end
 del setup.bat
