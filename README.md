@@ -13,6 +13,7 @@ These recordings are distributed in the hope that they will be useful,
 but WITHOUT ANY WARRANTY; without even the implied warranty of
 MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
 General Public License for more details.
+
 yali-voice.exe is a zip file that must be
 compatible with unzip on non-Windows platforms
 as well as being self-extracting.
@@ -22,4 +23,7 @@ unzipsfx.exe is a Win32 build of unzipsfx
 CHEAP_SFX_AUTORUN defined, and hacked process.c
 so it doesn't confirm the Auto-run command.
 
-Use 'make' to makke a new yali-voice.exe from the WAVs.
+Use 'make' to make a new yali-voice.exe from the WAVs.
+
+Gradint is at http://people.ds.cam.ac.uk/ssb22/gradint
+and is also mirrored at http://ssb22.gitlab.io/gradint as the Cambridge "DS-Web" server sometimes gets taken down for several days of maintenance.
